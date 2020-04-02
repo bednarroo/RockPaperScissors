@@ -1,2 +1,2 @@
-# RockPaperScissors
+# Rock Paper Scissors
 easy game
