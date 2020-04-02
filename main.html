@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="title">rock-paper-scissors</h1>
+    <h2 class="subtitle">let's play - select one option</h2>
+    <div class="extraStats">Get more stats</div>
+    <div class="popUp">
+        <h1>Extra Stats</h1>
+        <div class="popUpContainer">
+            <div class="allWins">All wins:</div>
+            <div class="allLoses">All loses:</div>
+            <div class="allDraws">All draws:</div>
+            <div class="allGames">All games:</div>
+        </div>
+        <div class="close">Close</div>
+    </div>
+    <div class="container">
+        <div class="paper" data-option="pap">
+            <div class="overlay">
+                <div class="choseHover">your chose => <i class="fa fa-hand-paper-o" aria-hidden="true"></i>(paper)<br>
+                    paper wins with rock<br>paper loses to scissors
+                </div>
+            </div>
+        </div>
+        <div class="scissors" data-option="sci">
+            <div class="overlay">
+                <div class="choseHover">your chose => <i class="fa fa-scissors" aria-hidden="true"></i>(scissors)<br>
+                    scissors wins with paper <br>scissors loses to rock
+                </div>
+            </div>
+        </div>
+        <div class="rock" data-option="roc">
+            <div class="overlay">
+                <div class="choseHover">your chose => <i class="fa fa-hand-rock-o" aria-hidden="true"></i>(rocks)<br>
+                    rock wins with scissors <br> rock loses to paper</div>
+            </div>
+        </div>
+
+    </div>
+    <button class="send">Play</button>
+
+    <div class="summary">
+        <div class="you"> Your choice:</div>
+        <div class="opponent"> Opponent's choice:</div>
+        <div class="result"> Result:</div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
