@@ -28,7 +28,7 @@ const select = function (e) {
     choice.you = this.dataset.option
     console.log(choice.you);
     cases.forEach(cas => cas.style.boxShadow = "");
-    this.style.boxShadow = " 0 0 10px red"
+    this.style.boxShadow = " 0 0 40px red"
 
 }
 cases.forEach(cas => cas.addEventListener('click', select))
